@@ -1,0 +1,141 @@
+.third .testimonial{
+    background-image: url(/public/images/Background\ \(2\).png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1267px;
+    }
+    
+    .testimonial .testimonialContent{
+    text-align: center;
+    padding-top: 164px;
+    }
+    
+    .testimonialContent .pOne{
+    font-weight: 400;
+    font-family: 'Yellowtail';
+    font-size: 36px;
+    color: #7EB693;
+    margin-bottom: 8px;
+    }
+    
+    .testimonialContent .pTwo{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165.4%;
+    color: #525C60;
+    margin-bottom: 20px;
+    }
+    
+    .testimonialContent h4{
+    font-weight: 800;   
+    font-family: 'Roboto';
+    font-size: 50px;
+    color: #274C5B;
+    }
+    
+    .testimonialContent .photo{
+    margin-top: 60px;
+    margin-bottom: 25px;
+    }
+    
+    .photo img{
+    margin-bottom: 15px;
+    }
+
+    .imgStar svg{
+        margin: 0px 2px;
+    }
+    
+    .testimonialContent h5{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 25px;
+    color: #274C5B;
+    }
+    
+    .testimonialContent h6{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 165.4%;
+    color: #525C60;
+    }
+    
+    .ellipses{
+    margin-top: 19px;
+    }
+    
+    .ellipse1{
+    width: 8px;
+    height: 8px;
+    border: none;
+    border-radius: 50%;
+    background: #C4C4C4;
+    }
+    
+    .ellipse2{
+    width: 8px;
+    height: 8px;
+    margin: 0px 5px;
+    background: #7EB693;
+    border: none;
+    border-radius: 50%;
+    }
+    
+    .counters{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    margin-top: 204px;
+    }
+    
+    .counter{
+    border: 4px solid #7EB693;
+    border-radius: 50%;
+    width: 211px;
+    height: 211px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .counters .chart{
+    border-radius: 50%;
+    background-color:#F1F1F1;
+    width: 189px;
+    height: 189px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .chart p{
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 59px;
+    color: #274C5B;
+    }
+    
+    .chart h6{
+    width: 141px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 165.4%;
+    color: #274C5B;
+    }
+    
+    .counters::before{   
+    content: '';
+    position: absolute;
+    width: 1108px;
+    height: 1px;
+    background-color: #E0E0E0;
+    margin-bottom: 420px;
+    }

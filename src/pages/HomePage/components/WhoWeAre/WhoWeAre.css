@@ -1,0 +1,54 @@
+.fifth{
+    background-color: #FFFFFF;
+    }
+    
+    .fifth .whoweare{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    }
+    
+    .organicContent{
+    margin-left: -80px;
+    padding: 60px 80px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    }
+    
+    .organicContent .one{
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #7EB693; 
+    }
+    
+    .organicContent h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 59px;
+    margin: 10px 0px 30px;
+    color: #274C5B;
+    }
+    
+    .organicContent h5{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #274C5B;
+    }
+    
+    .organicContent p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165.4%;
+    color: #525C60;
+    margin: 8px 0px 35px;
+    }

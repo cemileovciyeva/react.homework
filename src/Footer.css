@@ -1,0 +1,242 @@
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.contactUs{
+    display: flex;
+    flex-direction: column;
+    text-align:end;
+    margin-right: 51px;
+}
+
+.contactUs h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 32px;
+    color: #274C5B;
+}
+
+.contactUs h4{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 165%;
+    text-align: right;
+    color: #525C60;
+}
+
+.contactUs p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 272.9%;
+    color: #525C60;
+    margin-bottom: 25px;
+}
+
+.logoOrganic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 42px 126px 41px
+}
+
+.logoOrganic .organic{
+    display: flex;
+    align-items: center;
+}
+
+.organic p{
+    margin-left: 5px;
+    font-family: 'Roboto';
+    font-size: 38px;
+    color: #274C5B;
+    font-weight: 700;
+}
+
+.paragraph p{
+    width: 543px;
+    height: 60px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165.4%;
+    text-align: center;
+    color: #525C60;
+    margin: 26px 0px 49px;
+}
+
+.utilityPages{
+    margin-bottom: 73px;
+    margin-left: 50px;
+}
+
+.utilityPages h3{
+    width: 171px;
+    height: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #274C5B;
+    margin-bottom: 22px;
+}
+
+.utilityPages h6{
+    width: 285px;
+    height: 245px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 272.9%;
+    color: #525C60;
+}
+
+.logoOrganic .follow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+} 
+
+.follow .insta, .fb, .twiter, .pintrest {
+    width: 60px;height: 60px;
+    border: 1px solid blue;
+    border: none;
+    border-radius: 50%;
+    background: #EFF6F1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer hr{
+    border: 1px solid #D4D4D4;
+    width: 0;
+    height: 370px;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.copyright hr{
+    border: 1px solid #D5D5D5;
+}
+
+.span{
+    margin: 15px 0px;
+    letter-spacing: 0.5px;
+}
+
+.span .span1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165.4%;
+    text-align: center;
+    color: #525C60;
+}
+
+.span .span2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 165.4%;
+    text-align: center;
+    color: #525C60;
+}
+
+@media screen and (max-width: 500px) and (min-width: 340px){
+.footer{
+    display: block;
+    padding-left: 16px;
+}
+.footer hr{
+    width: 200px;
+height: 0;
+}
+.footer .contactUs{
+    text-align: start;
+    margin-right: 0px;
+}
+.contactUs h2{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.contactUs h4{
+    font-size: 14px;
+    line-height: 0;
+    text-align: start;
+}
+.contactUs p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.logoOrganic{
+    margin: 15px 0px;
+    align-items: flex-start;
+}
+.logoOrganic .organic img{
+    height: 35px;
+    width: 35px;
+}
+.organic p{
+    font-size: 26px;
+    margin: 0px;
+}
+.paragraph p{
+    width: auto;
+height: auto;
+font-size: 14px;
+text-align: start;
+margin: 13px 0px 25px;
+}
+.logoOrganic .follow{
+    gap: 10px;
+}
+.follow .insta, .fb, .twiter, .pintrest{
+    width: 40px;
+    height: 40px;
+}
+.utilityPages{
+    margin: 15px 0px 0px 0px;
+}
+.utilityPages h3{
+    width: auto;
+height: auto;
+font-size: 22px;
+margin-bottom: 10px;
+}
+.utilityPages h6{
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    line-height: 260%;
+}
+.copyright{
+    margin-top: 45px;
+}
+.span .span1{
+    font-size: 14px;
+}
+.span .span2{
+    font-size: 14px;
+}
+}

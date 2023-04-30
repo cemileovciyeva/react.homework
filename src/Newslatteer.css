@@ -1,0 +1,154 @@
+
+.second .newslatteerContainer {
+  width: 73%;
+  margin: 0px auto 117px auto;
+}
+
+.newslatteer {
+  background-image: url(/public/images/Photo\ \(29\).png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px;
+  border-radius: 30px;
+  height: 323px;
+  width: 1400px;
+  gap: 326px;
+}
+
+.newslatteer p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 59px;
+  color: #ffffff;
+  width: 357px;
+  height: 113px;
+}
+
+.buttonn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+  width: 575px;
+  height: 80px;
+}
+
+.buttonn input {
+  background: #ffffff;
+  border-radius: 16px;
+  width: 349px;
+  height: 80px;
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ababab;
+  border: none;
+  padding-left: 23px;
+}
+
+.buttonn button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 28px 47px 29px;
+  gap: 10px;
+  width: 220px;
+  height: 80px;
+  background: #274c5b;
+  border-radius: 16px;
+}
+
+@media screen and (max-width: 500px) and (min-width: 340px) {
+    .second .newslatteerContainer {
+        width: 100%;
+        margin: 70px 0px 80px 5px;
+    }
+
+  .newslatteer {
+    background-image: url(/public/images/Photo\ \(29\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px;
+    border-radius: 30px;
+    height: 130px;
+    width: 100%;
+    margin-top: 100px;
+  }
+  .newslatteer p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 59px;
+    color: #ffffff;
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+  .buttonn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 6px;
+    width: auto;
+    height: auto;
+  }
+
+  .buttonn input {
+    background: #ffffff;
+    border-radius: 16px;
+    width: 175px;
+    height: 45px;
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #ababab;
+    border: none;
+    padding-left: 15px;
+  }
+  .buttonn button {
+    padding: 0px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 23px;
+    color: #ffffff;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 110px;
+    height: 45px;
+    background: #274c5b;
+    border-radius: 16px;
+  }
+}

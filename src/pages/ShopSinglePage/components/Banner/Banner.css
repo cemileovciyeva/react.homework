@@ -1,0 +1,32 @@
+.img{
+    background-image: url(/public/images/Banner\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 450px;
+}
+
+.img h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 82px;
+    color: #274C5B;
+    padding: 184px 0px 0px 771px;
+}
+
+@media screen and (max-width: 500px) and (min-width: 340px) {
+.first .img{
+    height: 140px;
+width: 100%;
+background-size: cover;
+}
+
+.img h1{
+    text-align: center;
+padding: 63px 0px 0px 0px;
+line-height: 15px;
+font-size: 30px;
+}
+}

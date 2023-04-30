@@ -1,0 +1,69 @@
+.container2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 74%;
+    margin: 154px auto 190px auto;
+    gap: 36px;
+    }
+    
+    .container2 .bannerLeft{
+    background-image: url(/public/images/Image\ \(1\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 682.24px;
+    height: 367px;
+    }
+    
+    .bannerLeft .leftContent, .bannerRight .rightContent{
+    width: 277.63px;
+    height: 148px;
+    margin-top: 109px;
+    margin-left: 55px;
+    }
+    
+    .bannerLeft .leftContent p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: 'Yellowtail';
+    font-size: 36px;
+    margin-bottom: 5px;
+    }
+    
+    .bannerLeft .leftContent h3{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 47px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    }  
+    
+    .container2 .bannerRight{
+    background-image: url(/public/images/Image\ \(2\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 682.24px;
+    height: 367px;
+    }
+    
+    .bannerRight .rightContent{
+    width: 277.63px;
+    height: 148px;
+    }
+    
+    .bannerRight .rightContent p{
+    font-family: 'Yellowtail';
+    font-size: 36px;
+    color: #7EB693;
+    margin-bottom: 5px;
+    }
+    
+    .bannerRight .rightContent h3{ 
+    font-family: 'Roboto';
+    font-size: 40px;
+    line-height: 47px;
+    color: #274C5B;
+    }

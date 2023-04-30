@@ -1,0 +1,114 @@
+.second .about{
+    background-image: url(/public/images/Image\ \(3\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #F9F8F8;
+    background-position: center;
+    }   
+    
+    .about .container3{
+        width: 74%;
+        margin: 0px auto;
+        display: flex;
+        justify-content: end;
+    }
+    
+    .aboutContent{
+        width: 49.5%;
+        margin-top: 186px;
+        margin-bottom: 199px;
+    }
+    
+    .aboutContent .aboutUs{
+    font-family: 'Yellowtail';
+    font-weight: 400;
+    font-size: 36px;
+    color: #7EB693;
+    }
+    
+    .aboutContent h3{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 59px;
+    color: #274C5B;
+    width: 702px;
+    font-family: 'Roboto';
+    margin: 8px 0px 14px
+    }
+    
+    .aboutContent .simply{
+    font-weight: 400;
+    width: 690px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 165.4%;
+    color: #525C60;
+    margin-bottom: 18px;
+    }
+    
+    .veganFood {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 19px;
+    margin-top: 46px;
+    }
+    
+    .mailbox{
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 19px;
+    margin: 32.5px 0px 46px 0px;
+    
+    }
+    
+    .imgVegan img, .imgMailbox img{
+    width: 87px;
+    height: 87px;
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 20%;
+    }
+    
+    .veganContent h4, .mailboxContent h4{
+    margin-bottom: 7px;
+    font-weight: 800;
+    font-family: 'Roboto';
+    font-size: 25px;
+    line-height: 29px;
+    color: #274C5B;
+    }
+    
+    .veganContent p, .mailboxContent p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165.4%;
+    color: #525C60;
+    width: 426px;
+    height: 60px;
+    }
+    
+    .aboutContent .shop{
+    font-weight: 700;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #FFFFFF;
+    display: flex; 
+    justify-content: center;
+    align-items: center;   
+    gap: 10px;
+    width: 220px;
+    height: 79px;
+    background: #274C5B;
+    border-radius: 16px;
+    border: none;
+    }
+    
+    .shop .img{
+    width: 19px;
+    height: 19px;
+    background: #335B6B;;
+    border-radius: 50%;
+    padding: 4px;
+    }

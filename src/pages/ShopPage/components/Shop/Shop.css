@@ -1,0 +1,303 @@
+
+.second .container2{
+    width: 73%;
+    margin: 90px auto 140px auto;
+}
+
+.allProducts{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px 20px;
+}
+
+.product1{
+    position: relative;
+    width: 335px;
+    height: 483px;
+    background: #F9F8F8;
+    border-radius: 30px;
+}
+
+.product1 .one{
+    margin: 73px 0px 86px 0px;
+}
+
+.product1 .two{
+    margin: 55px 0px 53px 0px;
+}
+
+.product1 .three{
+    margin: 78px 0px 77px 0px;
+}
+
+.product1 .four{
+    margin: 82px 0px 71px 0px;
+}
+
+.product1 .five{
+    margin: 60px 0px 64px 0px;
+}
+
+.product1 .six{
+    margin: 72px 43px 77px 43px;
+}
+
+.product1 .seven{
+    margin: 30px 0px 61px 0px;
+}
+
+.product1 .eight{
+    margin: 60px 0px 61px 0px;
+}
+
+.product1 .ten{
+    margin: 54px 0px 53px 0px;
+}
+
+.product1 .eleven{
+    margin: 50px 23.18px 49px 22.82px;
+}
+
+.product1 .twelve{
+    margin: 50px 23.27px 50px 23.73px;
+}
+
+.product1 .tag{
+    padding: 5px 12px 6px;
+    background: #274C5B;
+    border-radius: 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 29px;
+    left: 30px;
+}
+
+.aboutProduct{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+    position: absolute;
+    left: 30px;
+    top: 399px;
+    margin-top: 2px;
+}
+
+.aboutProduct span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #274C5B;
+}
+
+.priceStar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.price{
+    margin-right: 81px;
+}
+
+.priceStar::after{
+    content: "";
+    position: absolute;
+    top: -6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(222, 221, 221);
+    width: 274.99px;
+    height: 0px;
+    border: 1px solid #DEDDDD;
+}
+
+.priceStar .old{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #B8B8B8;
+    text-decoration: line-through;
+    margin-right: 8px;
+}
+
+.priceStar .new{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #274C5B;
+}
+
+.star img{
+    margin-left: 1.3px;
+}
+
+
+
+@media screen and (max-width: 500px) and (min-width: 340px){
+
+.second .container2{
+    width: 100%;
+    margin: 70px 0px 80px 0px;
+}
+.container2 .allProducts{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    gap: 20px 0px;
+    width: 100%;
+}
+.product1{
+    position: relative;
+    width: 200px;
+    height: 305px;
+    background: #F9F8F8;
+    border-radius: 30px;
+}
+.product1 .one{
+    width: 200px;
+    margin: 40px 0px 0px 0px;
+}
+
+.product1 .tag {
+    padding: 1px 8px 2px;
+    background: #274C5B;
+    border-radius: 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 20px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 14px;
+    left: 14px;
+}
+.aboutProduct {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    left: 14px;
+    top: 240px;
+    margin-top: 0px;
+}
+.aboutProduct span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #274C5B;
+}
+.priceStar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.price {
+    margin-right: 35px;
+}
+.priceStar .old {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 20px;
+    color: #B8B8B8;
+    text-decoration: line-through;
+    margin-right: 8px;
+}
+.priceStar .new {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 25px;
+    color: #274C5B;
+}
+.priceStar .new {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 25px;
+    color: #274C5B;
+}
+.star img{
+    width: 10px;
+height: 10px;
+margin-left: 1.3px;
+}
+.priceStar::after {
+    content: "";
+    position: absolute;
+    top: -6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(222, 221, 221);
+    width: 170px;
+    height: 0px;
+    border: 1px solid #DEDDDD;
+}
+.product1 .two {
+    margin: 32px 0px 0px 0px;
+    width: 200px;
+}
+.product1 .three {
+    margin: 40px 0px 0px 0px;
+    width: 200px;
+}
+.product1 .four {
+    margin: 45px 0px 0px 0px;
+    width: 200px;
+}
+.product1 .five {
+    margin: 30px 0px 0px 0px;
+    width: 200px;
+}
+.product1 .six {
+    margin: 30px 0px 0px 20px;
+    width: 165px;
+}
+.product1 .seven {
+    margin: 25px 0px 0px 0px;
+    width: 200px;
+}
+.product1 .eight {
+    margin: 35px 0px 0px 0px;
+    width: 200px;
+}
+.product1 .nine{
+    width: 200px;
+}
+.product1 .ten {
+    margin: 35px 0px 0px 0px;
+    width: 200px;
+}
+.product1 .eleven {
+    margin: 20px 0px 0px 15px;
+    width: 180px;
+}
+.product1 .twelve {
+    margin: 20px 0px 0px 10px;
+    width: 180px;
+}
+}

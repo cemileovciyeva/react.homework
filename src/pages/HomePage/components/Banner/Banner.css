@@ -1,0 +1,74 @@
+
+.first{
+    position: relative;
+    }
+    
+    .first .sliderPart{
+    background-image: url(/public/images/Image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 898px;
+    position: relative;   
+    }
+    
+    .first .overImg {
+    background-image: url(/public/images/Background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 898px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    }
+    
+    .content{   
+    position: absolute;
+    width: 530px;
+    height: 405px;
+    left: 260px;
+    top: 247px;
+    }
+    
+    .content p{
+    margin: 0;
+    font-weight: 400;
+    color: #68A47F;
+    font-family: 'Yellowtail';
+    font-size: 36px;
+    line-height: 49px
+    }
+    
+    .content h1{
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 82px;
+    color: #274C5B;
+    margin: 8px 0px 23px 0px;
+    }
+    
+    .explore{
+    font-weight: 700;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #274C5B;
+    display: flex; 
+    justify-content: center;
+    align-items: center;   
+    gap: 10px;
+    width: 220px;
+    height: 79px;
+    background: #EFD372;
+    border-radius: 16px;
+    border: none;
+    }
+    
+    .explore img{
+    width: 19px;
+    height: 19px;
+    background: #335B6B;
+    border-radius: 50%;
+    padding: 4px;
+    }
